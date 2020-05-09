@@ -3,8 +3,8 @@ class String{
         var options = {
             bodyA:bodyA,
             bodyB:bodyB,
-            stiffness:0.1,
-            length:10,
+            stiffness:0.04,
+            length:100,
         }
         this.string = Constraint.create(options);
         World.add(world,this.string);
